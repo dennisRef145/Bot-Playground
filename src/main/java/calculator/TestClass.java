@@ -2,25 +2,42 @@ package calculator;
 
 public class TestClass {
     public void simpleMethod() {
-    	System.out.println("1");
-    	System.out.println("2");
-    	System.out.println("3");
-    	System.out.println("4");
-    	System.out.println("5");
-    	System.out.println("6");
+    	int c = 12;
+    	int d = 13;
+    	
+    	if (c + d > 20) {
+    		System.out.println("1");
+        	System.out.println("2");
+        	System.out.println("3");
+    	}
+    	
+    	int e = 10;
+    	int f = 3;
+    	
+    	if (e * f > 20) {
+    		System.out.println("4");
+        	System.out.println("5");
+        	System.out.println("6");
+    	}
+    	
+    	// test
     	System.out.println("7");
-    	System.out.println("8");
-    	System.out.println("9");
-    	System.out.println("10");
-    	System.out.println("11");
-    	System.out.println("12");
-    	System.out.println("13");
-    	System.out.println("14");
-    	System.out.println("15");
-    	System.out.println("16");
-    	System.out.println("17");
-    	System.out.println("18");
-    	System.out.println("19");
+    	
+    	int y = 12;
+    	int x = 19;
+    	
+    	if (x - y < 20) {
+    		System.out.println("8");
+        	System.out.println("9");
+    	}
+    	
+    	int g = 10;
+    	int h = 2;
+    	
+    	if (g * h > 15) {
+    		System.out.println("10");
+    	}
+
         int a = 0;
         int b = 1;
 
