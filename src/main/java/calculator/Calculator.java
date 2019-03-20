@@ -2,7 +2,7 @@ package calculator;
 
 import java.util.Scanner;
 
-public class Calculator extends SuperCalculator {
+public class Calculator {
 
 	public final static int MULTIPLIER = 10;
 
@@ -10,7 +10,6 @@ public class Calculator extends SuperCalculator {
 		new Calculator().runProgram();
 	}
 
-	@Override
 	public double addition(double a, double b) {
 		int x1;
 		int x2;
