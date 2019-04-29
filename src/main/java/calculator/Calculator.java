@@ -52,6 +52,7 @@ public class Calculator extends SuperCalculator {
 	}
 
 	public double division(double a, double b) {
+		a = 12;
 		int c;
 		int d;
 		int e;
@@ -67,6 +68,7 @@ public class Calculator extends SuperCalculator {
 	}
 
 	public double divisionClone(double a, double b) {
+		a = 13;
 		int f;
 		int c;
 		int d;
