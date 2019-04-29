@@ -52,14 +52,14 @@ public class Calculator extends SuperCalculator {
 	}
 
 	public double division(double a, double b) {
-		a = 12;
+		int atest = 12;
 		int c;
 		int d;
 		int e;
 		int k;
 		int j;
 		c = 12;
-		d = 13 + (int)a;
+		d = 13 + atest;
 		e = 14;
 		k = 15;
 		j = 16;
@@ -68,7 +68,7 @@ public class Calculator extends SuperCalculator {
 	}
 
 	public double divisionClone(double a, double b) {
-		a = 13;
+		int atest = 13;
 		int f;
 		int c;
 		int d;
@@ -76,7 +76,7 @@ public class Calculator extends SuperCalculator {
 		int k;
 		int j;
 		c = 12;
-		d = 13 + (int)a;
+		d = 13 + atest;
 		e = 14;
 		// test comment
 		k = 15;
