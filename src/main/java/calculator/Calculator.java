@@ -58,7 +58,7 @@ public class Calculator extends SuperCalculator {
 		int k;
 		int j;
 		c = 12;
-		d = 13;
+		d = 13 + (int)a;
 		e = 14;
 		k = 15;
 		j = 16;
@@ -74,7 +74,7 @@ public class Calculator extends SuperCalculator {
 		int k;
 		int j;
 		c = 12;
-		d = 13;
+		d = 13 + (int)a;
 		e = 14;
 		// test comment
 		k = 15;
