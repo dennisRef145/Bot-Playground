@@ -78,7 +78,10 @@ public class Calculator extends SuperCalculator {
 		c = 12;
 		d = 13 + atest;
 		e = 14;
-		// test comment
+		// test comment1
+
+		// test comment2
+		// test comment3
 		k = 15;
 		j = 16;
 		c = c + d + e + k + j; // test comment 2
