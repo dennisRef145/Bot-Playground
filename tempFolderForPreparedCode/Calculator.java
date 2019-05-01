@@ -1,8 +1,8 @@
 package calculator;
 
-import java.util.Scanner;
+import java.util.*;
 
-public class Calculator extends SuperCalculator {
+public class Calculator {
 
     public static final int MULTIPLIER = 10;
 
@@ -55,17 +55,39 @@ public class Calculator extends SuperCalculator {
 
     public double division(double a, double b) {
         int atest = 12;
-        int c = this.extractedMethod();
+        int c;
+        int d;
+        int e;
+        int k;
+        int j;
+        c = 12;
+        d = 13 + atest;
+        e = 14;
+        k = 15;
+        j = 16;
+        c = c + d + e + k + j;
         return a / b + c;
     }
 
     public double divisionClone(double a, double b) {
         int atest = 13;
         int f;
-        int c = this.extractedMethod();
+        int c;
+        int d;
+        int e;
+        int k;
+        int j;
+        c = 12;
+        d = 13 + atest;
+        e = 14;
+        // test comment1
+        // test comment2
+        // test comment3
+        k = 15;
+        j = 16;
+        // test comment 2
+        c = c + d + e + k + j;
         return a / b + c;
-    // test comment1
-    // test comment2
     }
 
     public void runProgram() {
@@ -151,19 +173,15 @@ public class Calculator extends SuperCalculator {
         System.out.println(object);
     }
 
-    private int extractedMethod() {
-        int c;
-        int d;
-        int e;
-        int k;
-        int j;
-        c = 12;
-        d = 13 + atest;
-        e = 14;
-        k = 15;
-        j = 16;
-        c = c + d + e + k + j;
-        return c;
+    public class Scanner {
+
+        public void nextInt() {
+        }
+
+        public void close() {
+        }
+    }
+
+    public class Object {
     }
 }
-
