@@ -53,38 +53,38 @@ public class Calculator extends SuperCalculator {
 
 	public double division(double a, double b) {
 		int atest = 12;
-		int c;
-		int d;
-		int e;
-		int k;
-		int j;
-		c = 12 + (int)a;
-		d = 13 + atest;
-		e = 14;
-		k = 15;
-		j = 16;
-		c = c + d + e + k + j;
-		return a / b + c;
+		int c = this.extractedMethod(a, atest);
+		
+
+
+
+
+
+
+
+
+
+return a / b + c;
 	}
 
 	public double divisionClone(double a, double b) {
 		int atest = 13;
 		int f;
-		int c;
-		int d;
-		int e;
-		int k;
-		int j;
-		c = 12 + (int)a;
-		d = 13 + atest;
-		e = 14;
-		// test comment1
+		int c = this.extractedMethod(a, atest);
+		
+
+
+
+
+
+
+// test comment1
 
 		// test comment2
 		// test comment3
-		k = 15;
-		j = 16;
-		c = c + d + e + k + j; // test comment 2
+		
+		
+// test comment 2
 		return a / b + c;
 	}
 
@@ -177,5 +177,21 @@ public class Calculator extends SuperCalculator {
 	private void println(Object object) {
 		System.out.println(object); //NOSONAR
 	}
+	private int extractedMethod(double a, int atest) {
+	    int c;
+	int d;
+	int e;
+	int k;
+	int j;
+	c = 12 + (int) a;
+	d = 13 + atest;
+	e = 14;
+	k = 15;
+	j = 16;
+	c = c + d + e + k + j;
+	return c;
+}
+
 
 }
+
