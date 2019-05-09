@@ -59,6 +59,12 @@ public class Calculator extends SuperCalculator {
 		int k;
 		int j;
 		c = 12 + (int)a;
+		for (int i = 0; i < 10; i++) {
+			c++;
+			if (c > 16) {
+				break;
+			}
+		}
 		d = 13 + atest;
 		e = 14;
 		k = 15;
@@ -76,6 +82,12 @@ public class Calculator extends SuperCalculator {
 		int k;
 		int j;
 		c = 12 + (int)a;
+		for (int i = 0; i < 10; i++) {
+			c++;
+			if (c > 16) {
+				break;
+			}
+		}
 		d = 13 + atest;
 		e = 14;
 		// test comment1
@@ -90,6 +102,7 @@ public class Calculator extends SuperCalculator {
 
 	public void runProgram() {
 		println("The calculator is ready to calculate!");
+		int a = 12;
 
 		// get numbers
 		Scanner inp= new Scanner(System.in);
@@ -133,6 +146,7 @@ public class Calculator extends SuperCalculator {
 
 	public void runProgramCloneTest() {
 		println("The calculator is ready to calculate!");
+		int a = 13;
 
 		// get numbers
 		Scanner inp= new Scanner(System.in);
