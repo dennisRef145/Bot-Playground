@@ -13,47 +13,30 @@ public class TestClass {
                 break;
             }
         }
+    }
 
-        System.out.println(b);
-
-        int ac = 0;
-        int bc = 1;
-
-        if (ac == bc) {
-            bc = 2;
+    public double division(double a, double b) {
+        int atest = 12;
+        int c;
+        int d;
+        int e;
+        int etest = 12;
+        boolean test = true;
+        String test2 = "testtest";
+        int k;
+        int j;
+        c = 12 + (int)a;
+        for (int i = 0; i < 10; i++) {
+            c++;
+            if (c > 16) {
+                break;
+            }
         }
-
-        System.out.println(bc);
-        
-        int ad = 0;
-        int bd = 1;
-
-        if (ad == bd) {
-            bd = 2;
-        } else {
-            ad = 2;
-        }
-
-        System.out.println(bd);
-        
-        int af = 0;
-        int bf = 1;
-
-        switch (af) {
-            case 0:
-                bf = af;
-                break;
-            case 1:
-                bf = 69;
-                break;
-            case 2:
-                bf = 42;
-                break;
-            default:
-                bf = 1000;
-                break;
-        }
-
-        System.out.println(bf);
+        d = 13 + atest + etest;
+        e = 14;
+        k = 15;
+        j = 16;
+        c = c + d + e + k + j;
+        return a / b + c;
     }
 }
