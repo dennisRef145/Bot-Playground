@@ -7,9 +7,8 @@ public class TestClass {
     }
 
     public void simpleMethod() {
-    	int a = 0;
-        int[] b = {2 , 3, 4, 6};
-
+        int a = 0;
+        int[] b = { 2, 3, 4, 6 };
         // this is a test
         for (int c : b) {
             a += c;
@@ -21,6 +20,11 @@ public class TestClass {
     }
 
     public double division(double a, double b) {
+        int c = this.extractedMethod(a, b);
+        return a / b + c;
+    }
+
+    public int extractedMethod(double a, double b) {
         int atest = 12;
         int c;
         int d;
@@ -30,7 +34,7 @@ public class TestClass {
         String test2 = "TestClass2";
         int k;
         int j;
-        c = 12 + (int)a;
+        c = 12 + (int) a;
         for (int i = 0; i < 10; i++) {
             c++;
             if (c > 16) {
@@ -42,6 +46,7 @@ public class TestClass {
         k = 15;
         j = 16;
         c = c + d + e + k + j;
-        return a / b + c;
+        return c;
     }
 }
+
