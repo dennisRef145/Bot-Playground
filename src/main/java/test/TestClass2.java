@@ -1,23 +1,9 @@
-package calculator;
+package test;
 
-public class TestClass {
+public class TestClass2 {
 
-    public TestClass(int test1, int test2) {
+    public TestClass2(int test) {
         System.out.println("test");
-    }
-
-    public void simpleMethod() {
-    	int a = 0;
-        int[] b = {2 , 3, 4, 6};
-
-        // this is a test
-        for (int c : b) {
-            a += c;
-            System.out.println(a);
-            if (a == 10) {
-                break;
-            }
-        }
     }
 
     public double division(double a, double b) {

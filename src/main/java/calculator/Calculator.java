@@ -27,7 +27,7 @@ public class Calculator extends SuperCalculator {
 		int e;
 		int etest = 12;
 		boolean test = true;
-		String test2 = "testtest";
+		String test2 = "TestClass2";
 		int k;
 		int j;
 		c = 12 + (int)a;
